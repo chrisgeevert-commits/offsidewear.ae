@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OFFSIDE WEAR.AE | Football Jerseys</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #d4af37;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #d4af37; /* Gold */
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    /* Search Bar */
+    .search-bar {
+      margin: 30px auto;
+      width: 80%;
+      max-width: 600px;
+      display: flex;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .search-bar button {
+      padding: 12px 20px;
+      border: none;
+      background-color: #d4af37;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      border-bottom: 1px solid #222;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      color: #d4af37;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+      color: #ccc;
+    }
+
+    /* World Cup Section */
+    .world-cup {
+      margin: 80px auto;
+      padding: 60px 20px;
+      width: 90%;
+      max-width: 1200px;
+      border: 2px dashed #d4af37;
+      text-align: center;
+    }
+
+    .world-cup h2 {
+      font-size: 36px;
+      color: #d4af37;
+      margin-bottom: 20px;
+    }
+
+    .world-cup .image-placeholder {
+      margin-top: 30px;
+      height: 300px;
+      border: 1px solid #555;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-style: italic;
+    }
+
+    /* Categories */
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 60px 40px;
+    }
+
+    .category {
+      border: 1px solid #333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .category h3 {
+      color: #d4af37;
+      margin-bottom: 15px;
+    }
+
+    .category .image-placeholder {
+      height: 200px;
+      border: 1px solid #555;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
+    .category a {
+      text-decoration: none;
+      color: #000;
+      background-color: #d4af37;
+      padding: 10px 20px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #d4af37;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">OFFSIDE WEAR.AE</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#player">Player Version</a>
+      <a href="#international">International Kits</a>
+      <a href="#fan">Fan Version</a>
+    </nav>
+  </header>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search OFFSIDE WEAR.AE" />
+    <button>Search</button>
+  </div>
+
+  <section class="hero">
+    <h1>Football Starts Here</h1>
+    <p>Premium football jerseys for players and fans. Authentic designs, elite quality, and iconic kits — only at OFFSIDE WEAR.AE.</p>
+  </section>
+
+  <section class="world-cup">
+    <h2>World Cup Collection</h2>
+    <p>Celebrate the biggest stage in football with exclusive World Cup kits.</p>
+    <div class="image-placeholder">World Cup Image / Banner Placeholder</div>
+  </section>
+
+  <section class="categories">
+    <div class="category" id="player">
+      <h3>Player Version Jerseys</h3>
+      <div class="image-placeholder">Player Version Image</div>
+      <a href="#">View Collection</a>
+    </div>
+
+    <div class="category" id="international">
+      <h3>International Kits</h3>
+      <div class="image-placeholder">International Kits Image</div>
+      <a href="#">View Collection</a>
+    </div>
+
+    <div class="category" id="fan">
+      <h3>Fan Version Kits</h3>
+      <div class="image-placeholder">Fan Version Image</div>
+      <a href="#">View Collection</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 OFFSIDE WEAR.AE | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
